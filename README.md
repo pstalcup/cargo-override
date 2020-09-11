@@ -1,21 +1,17 @@
-Cargo Override
-==============
+# Cargo Override
 Script to add quick buttons for commonly used pockets
 
-Installation
+## Installation
 
-------------
 Run this command in the graphical CLI:
 
-```
+```bash
 svn checkout https://github.com/pstalcup/cargo-override/branches/Release/
 ```
 
 Will require [a recent build of KoLMafia](http://builds.kolmafia.us/job/Kolmafia/lastSuccessfulBuild/).
 
-Todo:
-
-------------
+## Todo
 
 * Dump all of the pockets into the script
   * Write dumper from CSV
