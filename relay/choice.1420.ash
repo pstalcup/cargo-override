@@ -158,7 +158,7 @@ string build_pocket_row(int pocket_number, pocket current_pocket, boolean enable
     string button_form = "<form method=\"post\" action=\"choice.php\" style=\"display: inline\">" +
     "  <input type=\"hidden\" name=\"whichchoice\" value=\"1420\">" + 
     "  <input type=\"hidden\" name=\"pwd\" value=\"" + my_hash() + "\">" +
-    "  <input type=\"hidden\" name=\"option\" value=\"" + pocket_number_str + "\">" +
+    "  <input type=\"hidden\" name=\"option\" value=\"1\">" +
     "  <input type=\"hidden\" name=\"pocket\" value=\"" + pocket_number_str + "\">" +
     "  <input type=\"submit\" value=\"#" + pocket_number_str + "\" class=\"button\" " + disabled_str + ">" + 
     "</form>";
